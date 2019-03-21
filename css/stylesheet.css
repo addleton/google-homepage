@@ -24,6 +24,11 @@
     color: rgb(95, 99, 104);
 }
 
+#submit input:hover {
+    color: black;
+    border: 1px solid rgba(0, 0, 0, 0.25)
+}
+
 ul {
     list-style-type: none;
     margin: 10 10;
@@ -46,13 +51,17 @@ li {
 }
 
 a:link {
-    color: black;
+    color: rgba(0, 0, 0, 0.75);
     text-decoration: none;
-    opacity: 0.75;
 }
 
 a:hover {
     text-decoration: underline;
+}
+
+a:visited {
+    color: rgba(0, 0, 0, 0.75);
+    text-decoration: none;
 }
 
 #sign_in {
@@ -63,12 +72,17 @@ a:hover {
 }
 
 #sign_in a:link {
-    color: white;
+    color: rgb(255, 255, 255);
     text-decoration: none;
     font-weight: bold;
-    opacity: 1;
 }
 
 #sign_in a:hover {
     text-decoration: none;
+}
+
+#sign_in a:visited {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
 }
